@@ -288,6 +288,10 @@
       {
         "netclass": "Power",
         "pattern": "VCC"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "GND"
       }
     ]
   },
