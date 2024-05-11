@@ -5108,7 +5108,7 @@
 				)
 			)
 		)
-		(property "Footprint" " "
+		(property "Footprint" "customfootprints:QFP80P900X900X120-32N"
 			(at 199.136 86.106 0)
 			(effects
 				(font
@@ -6706,7 +6706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DS1337S_:SOIC127P600X175-8N"
+		(property "Footprint" "customfootprints:SOIC127P600X175-8N"
 			(at 53.34 43.18 0)
 			(effects
 				(font
