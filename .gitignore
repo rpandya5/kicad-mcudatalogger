@@ -2,6 +2,3 @@ fp-info-cache
 mcu data logger-backups/*
 mcudataloggerGerber/*
 
-.DS_Store
-*.kicad_prl
-*.sch_lck
