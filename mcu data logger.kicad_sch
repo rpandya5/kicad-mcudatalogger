@@ -2363,7 +2363,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 32.766 48.514 90)
+		(at 29.464 46.482 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2372,7 +2372,7 @@
 		(fields_autoplaced yes)
 		(uuid "0af1ba3d-0dbc-4f4c-853b-81a7e1b160e8")
 		(property "Reference" "Y1"
-			(at 36.83 47.2439 90)
+			(at 33.528 45.2119 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2380,8 +2380,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
-			(at 36.83 49.7839 90)
+		(property "Value" "32.768 KHz"
+			(at 33.528 47.7519 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 32.766 48.514 0)
+			(at 29.464 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,7 +2399,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 32.766 48.514 0)
+			(at 29.464 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,12 +2408,20 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 32.766 48.514 0)
+			(at 29.464 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 29.464 46.482 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2441,7 +2449,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b0d2edd-5a43-4030-a927-f31d8a2c8c83")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 102.87 33.5279 0)
 			(effects
 				(font
@@ -2450,7 +2458,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10K"
 			(at 102.87 36.0679 0)
 			(effects
 				(font
@@ -2486,6 +2494,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 100.584 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4a3d1123-c567-4c6a-b065-ad2f7ece0b4b")
 		)
@@ -2495,7 +2511,7 @@
 		(instances
 			(project "mcu data logger"
 				(path "/11b6bd9f-2495-4457-aa12-cba1ef4d8956"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2699,7 +2715,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 274.828 91.186 0)
+		(at 270.002 75.692 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2707,8 +2723,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "253c6cec-2991-49f2-a920-57e3c59117fe")
-		(property "Reference" "R1"
-			(at 277.114 89.9159 0)
+		(property "Reference" "R7"
+			(at 272.288 74.4219 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2716,8 +2732,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 277.114 92.4559 0)
+		(property "Value" "330"
+			(at 272.288 76.9619 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2726,7 +2742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 273.05 91.186 90)
+			(at 268.224 75.692 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2751,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.828 91.186 0)
+			(at 270.002 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,12 +2760,20 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 274.828 91.186 0)
+			(at 270.002 75.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 270.002 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2761,7 +2785,7 @@
 		(instances
 			(project "mcu data logger"
 				(path "/11b6bd9f-2495-4457-aa12-cba1ef4d8956"
-					(reference "R1")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2769,7 +2793,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 276.098 61.468 0)
+		(at 266.954 47.498 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2778,7 +2802,7 @@
 		(fields_autoplaced yes)
 		(uuid "278ea56a-2709-48fe-9198-4f5e6f53b9d6")
 		(property "Reference" "C5"
-			(at 279.146 59.3089 0)
+			(at 270.002 45.3389 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2786,8 +2810,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
-			(at 279.146 61.8489 0)
+		(property "Value" "100nF"
+			(at 270.002 47.8789 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2796,7 +2820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 277.0632 65.278 0)
+			(at 267.9192 51.308 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +2829,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.098 61.468 0)
+			(at 266.954 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,12 +2838,20 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 276.098 61.468 0)
+			(at 266.954 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 266.954 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -2839,7 +2871,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 192.786 51.308 0)
+		(at 190.246 64.262 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2847,26 +2879,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dd2ae5d-d087-434c-8458-2d234ed34479")
-		(property "Reference" "C3"
-			(at 196.342 50.0379 0)
+		(property "Reference" "C2"
+			(at 190.246 56.642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 196.342 52.5779 0)
+		(property "Value" "22 pF"
+			(at 190.246 59.182 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 193.7512 55.118 0)
+			(at 186.436 65.2272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +2905,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 192.786 51.308 0)
+			(at 190.246 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,12 +2914,20 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 192.786 51.308 0)
+			(at 190.246 64.262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 190.246 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -2901,7 +2939,7 @@
 		(instances
 			(project "mcu data logger"
 				(path "/11b6bd9f-2495-4457-aa12-cba1ef4d8956"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -3198,7 +3236,7 @@
 	)
 	(symbol
 		(lib_id "Device:Crystal")
-		(at 206.502 51.562 90)
+		(at 200.406 63.754 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3207,7 +3245,7 @@
 		(fields_autoplaced yes)
 		(uuid "34258076-c68b-4f61-89aa-596a7f305177")
 		(property "Reference" "Y2"
-			(at 210.82 50.2919 90)
+			(at 204.978 62.4839 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,8 +3253,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Crystal"
-			(at 210.82 52.8319 90)
+		(property "Value" "16 MHz"
+			(at 204.978 65.0239 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3225,7 +3263,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 206.502 51.562 0)
+			(at 200.406 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3234,7 +3272,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 206.502 51.562 0)
+			(at 200.406 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3243,12 +3281,20 @@
 			)
 		)
 		(property "Description" "Two pin crystal"
-			(at 206.502 51.562 0)
+			(at 200.406 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 200.406 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3276,7 +3322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41b54bf6-3475-4729-9c9f-4a557437615b")
-		(property "Reference" "C4"
+		(property "Reference" "C1"
 			(at 116.84 33.7819 0)
 			(effects
 				(font
@@ -3285,7 +3331,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "0.1 uF"
 			(at 116.84 36.3219 0)
 			(effects
 				(font
@@ -3321,6 +3367,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 113.284 35.052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3a7ad268-048b-4b33-936b-0d3aab563568")
 		)
@@ -3330,7 +3384,7 @@
 		(instances
 			(project "mcu data logger"
 				(path "/11b6bd9f-2495-4457-aa12-cba1ef4d8956"
-					(reference "C4")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3346,7 +3400,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ab4dd9a-d891-4e10-9ccf-184d5d5baa75")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 105.918 183.6419 0)
 			(effects
 				(font
@@ -3355,7 +3409,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7K"
 			(at 105.918 186.1819 0)
 			(effects
 				(font
@@ -3391,6 +3445,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 103.632 184.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0600045d-cd0b-4778-9d54-96c432041f18")
 		)
@@ -3400,7 +3462,7 @@
 		(instances
 			(project "mcu data logger"
 				(path "/11b6bd9f-2495-4457-aa12-cba1ef4d8956"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3416,7 +3478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64de71a9-2efc-4fe6-b69f-a22b2414c668")
-		(property "Reference" "R6"
+		(property "Reference" "R3"
 			(at 115.57 183.1339 0)
 			(effects
 				(font
@@ -3425,7 +3487,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4.7K"
 			(at 115.57 185.6739 0)
 			(effects
 				(font
@@ -3461,6 +3523,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 113.284 184.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9753dc52-7c42-46ef-9bfa-e532efe0289b")
 		)
@@ -3470,7 +3540,7 @@
 		(instances
 			(project "mcu data logger"
 				(path "/11b6bd9f-2495-4457-aa12-cba1ef4d8956"
-					(reference "R6")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3693,7 +3763,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 51.054 0)
+		(at 215.9 64.516 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3701,26 +3771,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aaeccbdd-3f4b-4953-b628-ec997a4b4b3e")
-		(property "Reference" "C2"
-			(at 181.356 49.7839 0)
+		(property "Reference" "C3"
+			(at 215.9 57.912 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 181.356 52.3239 0)
+		(property "Value" "22 pF"
+			(at 215.9 60.452 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 178.7652 54.864 0)
+			(at 212.09 65.4812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3729,7 +3797,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 177.8 51.054 0)
+			(at 215.9 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3738,12 +3806,20 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 177.8 51.054 0)
+			(at 215.9 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 215.9 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -3755,7 +3831,7 @@
 		(instances
 			(project "mcu data logger"
 				(path "/11b6bd9f-2495-4457-aa12-cba1ef4d8956"
-					(reference "C2")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3763,7 +3839,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 206.756 84.074 0)
+		(at 206.248 77.724 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3771,26 +3847,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af965853-248b-43e0-9850-b91d0919052c")
-		(property "Reference" "R2"
-			(at 209.042 82.8039 0)
+		(property "Reference" "R6"
+			(at 206.248 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 209.042 85.3439 0)
+		(property "Value" "10K"
+			(at 206.248 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 204.978 84.074 90)
+			(at 206.248 79.502 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3799,7 +3873,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 206.756 84.074 0)
+			(at 206.248 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3808,12 +3882,20 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 206.756 84.074 0)
+			(at 206.248 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 206.248 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3825,7 +3907,7 @@
 		(instances
 			(project "mcu data logger"
 				(path "/11b6bd9f-2495-4457-aa12-cba1ef4d8956"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -3841,8 +3923,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aff02d1f-cf74-48d9-80ad-677936cd544d")
-		(property "Reference" "R3"
-			(at 90.424 33.5279 0)
+		(property "Reference" "R1"
+			(at 90.17 33.5279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,8 +3932,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 90.424 36.0679 0)
+		(property "Value" "10K"
+			(at 90.17 36.0679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3886,6 +3968,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 88.138 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "95c129bf-ec53-4409-b5c0-11e98329f2f4")
 		)
@@ -3895,7 +3985,7 @@
 		(instances
 			(project "mcu data logger"
 				(path "/11b6bd9f-2495-4457-aa12-cba1ef4d8956"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3991,7 +4081,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 207.264 32.258 0)
+		(at 207.264 32.258 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3999,26 +4089,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3a70e51-95ba-4431-a1f1-4efe1f6e1d2d")
-		(property "Reference" "C1"
-			(at 210.82 30.9879 0)
+		(property "Reference" "C4"
+			(at 207.264 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "C"
-			(at 210.82 33.5279 0)
+		(property "Value" "0.1 uF"
+			(at 207.264 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 208.2292 36.068 0)
+			(at 211.074 31.2928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4044,6 +4132,14 @@
 				(hide yes)
 			)
 		)
+		(property "Purpose" ""
+			(at 207.264 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c754d9aa-4458-43a7-ae59-f086c293d0ee")
 		)
@@ -4053,7 +4149,7 @@
 		(instances
 			(project "mcu data logger"
 				(path "/11b6bd9f-2495-4457-aa12-cba1ef4d8956"
-					(reference "C1")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4061,7 +4157,7 @@
 	)
 	(symbol
 		(lib_id "DS1337S_:DS1337S_")
-		(at 57.912 44.704 0)
+		(at 64.262 45.212 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4070,7 +4166,7 @@
 		(fields_autoplaced yes)
 		(uuid "b87c7ace-86a8-43b5-b5e1-f48686fa4858")
 		(property "Reference" "U4"
-			(at 57.912 23.876 0)
+			(at 64.262 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4078,7 +4174,7 @@
 			)
 		)
 		(property "Value" "DS1337S_"
-			(at 57.912 26.416 0)
+			(at 64.262 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +4182,7 @@
 			)
 		)
 		(property "Footprint" "DS1337S_:SOIC127P600X175-8N"
-			(at 57.912 44.704 0)
+			(at 64.262 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,7 +4192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.912 44.704 0)
+			(at 64.262 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4201,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.912 44.704 0)
+			(at 64.262 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4114,7 +4210,7 @@
 			)
 		)
 		(property "MF" "Analog Devices"
-			(at 57.912 44.704 0)
+			(at 64.262 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,7 +4220,7 @@
 			)
 		)
 		(property "Description_1" "\nReal Time Clock (RTC) IC Clock/Calendar - I²C, 2-Wire Serial 8-SOIC (0.154, 3.90mm Width)\n"
-			(at 57.912 44.704 0)
+			(at 64.262 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,7 +4230,7 @@
 			)
 		)
 		(property "Package" "SOIC-8 Maxim"
-			(at 57.912 44.704 0)
+			(at 64.262 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,7 +4240,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 57.912 44.704 0)
+			(at 64.262 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4154,7 +4250,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DS1337S/Analog+Devices/view-part/?ref=snap"
-			(at 57.912 44.704 0)
+			(at 64.262 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4260,7 @@
 			)
 		)
 		(property "MP" "DS1337S"
-			(at 57.912 44.704 0)
+			(at 64.262 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +4270,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2748190&manufacturer=Analog Devices&part_name=DS1337S&search_term=ds1337s"
-			(at 57.912 44.704 0)
+			(at 64.262 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4184,7 +4280,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 57.912 44.704 0)
+			(at 64.262 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,7 +4290,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/DS1337S/Analog+Devices/view-part/?ref=eda"
-			(at 57.912 44.704 0)
+			(at 64.262 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4300,7 @@
 			)
 		)
 		(property "Purpose" ""
-			(at 57.912 44.704 0)
+			(at 64.262 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,7 +4342,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 274.828 77.47 0)
+		(at 271.018 61.722 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4254,7 +4350,7 @@
 		(dnp no)
 		(uuid "bc39b294-3e71-4589-a218-d30824de96d1")
 		(property "Reference" "D2"
-			(at 273.2405 71.628 0)
+			(at 265.176 63.3095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4262,7 +4358,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 273.2405 74.168 0)
+			(at 267.716 63.3095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4270,7 +4366,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.828 77.47 0)
+			(at 271.018 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4279,7 +4375,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.828 77.47 0)
+			(at 271.018 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4288,7 +4384,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 274.828 77.47 0)
+			(at 271.018 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4313,7 +4409,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 193.04 83.82 0)
+		(at 194.056 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4321,26 +4417,24 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef1c8cbb-2f61-422d-8306-7287cf5a8951")
-		(property "Reference" "R7"
-			(at 195.326 82.5499 0)
+		(property "Reference" "R5"
+			(at 194.056 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 195.326 85.0899 0)
+		(property "Value" "330"
+			(at 194.056 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 191.262 83.82 90)
+			(at 194.056 50.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4349,7 +4443,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 83.82 0)
+			(at 194.056 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,12 +4452,20 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 193.04 83.82 0)
+			(at 194.056 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Purpose" ""
+			(at 194.056 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4375,7 +4477,7 @@
 		(instances
 			(project "mcu data logger"
 				(path "/11b6bd9f-2495-4457-aa12-cba1ef4d8956"
-					(reference "R7")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4383,7 +4485,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 205.486 67.31 0)
+		(at 205.994 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4391,7 +4493,7 @@
 		(dnp no)
 		(uuid "f2242b33-6d92-41bb-bf11-65d1f2d0d42e")
 		(property "Reference" "D1"
-			(at 203.8985 61.468 0)
+			(at 204.4065 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +4501,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 203.8985 64.008 0)
+			(at 204.4065 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,7 +4509,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.486 67.31 0)
+			(at 205.994 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,7 +4518,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.486 67.31 0)
+			(at 205.994 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4425,7 +4527,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 205.486 67.31 0)
+			(at 205.994 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
